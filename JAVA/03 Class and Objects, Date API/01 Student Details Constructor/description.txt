@@ -1,0 +1,144 @@
+Sarah got confused to creating the constructor. Write a Java application to help Sarah to do this.
+
+Type(Class)
+
+Attributes
+
+Methods
+
+Responsibilities
+
+Student
+
+int studentId
+
+String studentName
+
+String studentAddress
+
+String collegeName
+
+Include the getters and setters method for all the attributes.
+
+ 
+
+ 
+
+Student
+
+ 
+
+Include a public parametrized constructor of four arguments in the following order - studentId, studentName, studentAddress, and collegeName to initialize the values for the Student object
+
+If student belongs to other college, give input as 'no/NO' and get college name from the user and create student object with 4-argument constructor to initialize all the values. 
+
+ 
+
+Student
+
+ 
+
+Include a public parametrized constructor of three arguments in the following order - studentId, studentName, studentAddress, and collegeName should be "NIT" to initialize the values for the Student object
+
+If student belongs to NIT, give input as 'yes/YES' and skip input for the attribute collegeName and create student object with 3-argument constructor to initilze the values for studentId, studentName and studentAddress and  collegeName as "NIT".
+
+ 
+
+ 
+
+Note: The class and methods should be declared as public and all the attributes should be declared as private. 
+
+ 
+
+In the UserInterface class, write the main method to test the application.
+
+Assume most of the students are from "NIT" college. So user has to give input whether the student is from NIT or not.
+
+Instead of Yes / No, if user enters different input then display 'Wrong Input' and get the input again.
+
+ Note:
+
+-         In the Sample Input / Output provided, the highlighted text in bold corresponds to the input given by the user, and the rest of the text represents the output.
+
+-         Ensure to follow the object-oriented specifications provided in the question description.
+
+-         Ensure to provide the names for classes, attributes, and methods as specified in the question description.
+
+-         Adhere to the code template, if provided.
+
+-         Please do not use System.exit(0) to terminate the program
+
+ 
+
+Sample Input 1:
+
+Enter Student's Id:
+
+12
+
+Enter Student's Name:
+
+John
+
+Enter Student's address:
+
+Chennai
+
+Whether the student is from NIT(Yes/No):
+
+NO
+
+Enter the college name:
+
+SVS
+
+ 
+
+Sample Output 1:
+
+Student id:12
+
+Student name:John
+
+Address:Chennai
+
+College name:SVS
+
+ 
+
+Sample Input 2:
+
+Enter Student's Id:
+
+43
+
+Enter Student's Name:
+
+Tom
+
+Enter Student's address:
+
+Coimbatore
+
+Whether the student is from NIT(Yes/No):
+
+y
+
+Wrong Input
+
+Whether the student is from NIT(Yes/No):
+
+yes
+
+ 
+
+Sample Output 2:
+
+Student id:43
+
+Student name:Tom
+
+Address:Coimbatore
+
+College name:NIT
+
