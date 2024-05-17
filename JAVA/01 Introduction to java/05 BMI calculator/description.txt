@@ -1,0 +1,73 @@
+Star fitness club wants to calculate the Body Mass Index (BMI) for all its customers. Customers may enter their height and weight. Each customer should know their body mass index and weight loss or gain goals to be fit and healthy. Help them to achieve this with the help of a Java program.
+
+If bmi is greater than or equal to 25, print "You are overweight" and then print the number of kilograms to be reduced to become fit as "Reduce <<kgs>>kg to be fit".
+
+If bmi is less than 25 and greater than or equal to 18.5, print "You are fit and healthy".
+
+If bmi is less than 18.5, print "You are underweight" and then print the number of kilograms to be gained to become fit as "Gain <<kgs>>kg to be fit".
+
+Formulas
+
+BMI = weight/((height/100) *(height/100))
+
+If bmi>25, kgs to be reduced = bmi-25
+
+If bmi<18.5, kgs to be gained = 18.5-bmi
+
+Note:
+
+In the Sample Input / Output provided, the highlighted text in bold corresponds to the input given by the user, and the rest of the text represents the output.
+Adhere to the code template, if provided.
+Please do not use System.exit(0) to terminate the program.
+Bmi and kgs should have only 2 decimal points.
+Use System.out.printf() method to round the output to its corresponding decimal places.
+Sample Input 1:
+
+Enter weight in kg
+
+108
+
+Enter height in cm
+
+168
+
+Sample Output 1:
+
+Your BMI is 38.27. You are overweight
+
+Reduce 13.27 kg to be fit
+
+
+
+Sample Input 2:
+
+Enter weight in kg
+
+68
+
+Enter height in cm
+
+172
+
+Sample Output 2:
+
+Your BMI is 22.99. You are fit and healthy
+
+
+
+Sample Input 3:
+
+Enter weight in kg
+
+42.7
+
+Enter height in cm
+
+158
+
+Sample Output 3:
+
+Your BMI is 17.10. You are underweight
+
+Gain 1.40 kg to be fit
+
