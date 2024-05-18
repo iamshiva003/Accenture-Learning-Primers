@@ -1,0 +1,47 @@
+Velan resort decides to automate their bookings. By automating they can easily enter the customer details, number of people visiting the resort, and based on the customer category they can calculate the booking price. So help the resort to do the automation using a Java program
+
+Assumption
+
+Price is in dollars
+For 1 adult 1000 per day
+For 1 child 650 per day
+Take input from the user as a single string separating each field with a colon(smile
+ <customer name>:<number of adults>:<number of child>:<number of days>
+
+Note:
+
+Customer category should be either "adult" or "child".
+If the number of adults is less than zero, print "Invalid input for number of adults"
+If the number of children is less than zero, print "Invalid input for number of children"
+If the number of days is less than or equal to zero, print "Invalid input for number of days"
+In the Sample Input / Output provided, the highlighted text in bold corresponds to the input given by the user, and the rest of the text represents the output.
+Ensure to follow the object-oriented specifications provided in the question description.
+Ensure to provide the names for classes, attributes, and methods as specified in the question description.
+Adhere to the code template, if provided.
+Do not use System.exit(0) to terminate the program
+
+Sample Input/Output 1:
+
+Enter the customer details
+
+Harish:2:2:2
+
+Harish your booking is confirmed and the total cost is 6600
+
+
+
+Sample Input/Output 2:
+
+Enter the customer details
+
+Guru:1:0:0
+
+Invalid input for number of days
+
+
+
+Sample Input/Output 3:
+
+Ezhil:1:0:1
+
+Ezhil your booking is confirmed and the total cost is 1000
