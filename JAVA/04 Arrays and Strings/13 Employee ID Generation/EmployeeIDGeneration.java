@@ -4,7 +4,6 @@ public class EmployeeIDGeneration {
    public static void main(String args[]) {
 
       Scanner sc = new Scanner(System.in);
-      // Fill the code
 
       System.out.println("Enter the training id");
       String tid = sc.next();
