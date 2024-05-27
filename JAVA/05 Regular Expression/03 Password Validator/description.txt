@@ -1,0 +1,36 @@
+Rahul is a 15 years old boy. He bought  a new laptop.  He likes to  password protect his laptop,  So help Rahul to generate a password for his laptop and validate the password by writing a Java program.
+
+Requirements:
+
+Hint to generate a password:
+
+Minimum of 6 characters and a maximum of 12 characters (characters include alphabets, numbers and special characters).
+The password should contain atleast one uppercase, one lowercase,  and one special character
+Only these special characters @,$,*,# are allowed
+keeping numbers in the password is optional.
+If the password fails the above condition, print "<password> is an invalid password" and terminate the program
+Note:
+
+In the Sample Input / Output provided, the highlighted text in bold corresponds to the input given by the user, and the rest of the text represents the output.
+Ensure to follow the object-oriented specifications provided in the question description.
+Ensure to provide the names for classes, attributes, and methods as specified in the question description.
+Adhere to the code template, if provided.
+Please do not use System.exit(0) to terminate the program
+
+Sample Input/Output 1
+
+Generate your password
+
+#001Lord
+
+The generated password #001Lord is valid and has 3 lowercase alphabet 1 uppercase alphabet 1 special character 3 digit
+
+
+
+Sample Input/Output 2
+
+Generate your password
+
+LIVE@123
+
+LIVE@123 is an invalid password

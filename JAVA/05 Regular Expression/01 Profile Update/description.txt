@@ -1,0 +1,71 @@
+Digital Technologies has decided to make some updates to the employee profile. So they like to add PAN number and E-mail ID in each profile. Help the firm to validate the PAN number and E-mail ID given by employees using the Java program
+
+Requirements:
+
+-        PAN number should have exactly ten characters. The first 5 characters should be alphabets in uppercase, the next four characters should be digits from 0 to 9 and the last character should be an alphabet in uppercase
+
+-        If the PAN number fails the above condition, then print "<PAN number> is an invalid PAN number" and terminate the program.
+
+-        E-mail should end with "@digitec.com", before @ there should be at least 5 to maximum 10 characters. All characters should be in lowercase
+
+-        IF E-mail ID fails the above condition, then print "Invalid E-mail ID" and terminate the program.
+
+Note:
+
+-        In the Sample Input / Output provided, the highlighted text in bold corresponds to the input given by the user, and the rest of the text represents the output.
+
+-        Ensure to follow the object-oriented specifications provided in the question description.
+
+-        Ensure to provide the names for classes, attributes, and methods as specified in the question description.
+
+-        Adhere to the code template, if provided.
+
+Please do not use System.exit(0) to terminate the program
+
+Sample Input/Output 1
+
+Enter your name
+
+Geetha
+
+Enter your PAN number
+
+SSTHP1234L
+
+Enter your E-mail ID
+
+geetha@digitec.com
+
+Profile of Geetha updated successfully
+
+ 
+
+Sample Input/Output 2
+
+Enter your name
+
+Pradeep
+
+Enter your PAN number
+
+QWER8456P
+
+QWER8456P is an invalid PAN number
+
+ 
+
+Sample Input/Output 3
+
+Enter your name
+
+Sara
+
+Enter your PAN number
+
+ABJKL1934F
+
+Enter your E-mail ID
+
+sara@digitec.com
+
+Invalid E-mail ID
